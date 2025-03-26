@@ -1,0 +1,12 @@
+MAX()
+
+	- Find the highest known value in a numeric, date or string column. 
+	- When applied to a column of numbers, MAX() returns the largest number in that column. 
+	- When applied to a string, it will return the string that is last alphabetically. 
+	- When using GROUP BY, it returns the highest balue within each group.
+	- Since NULL is an unknown value, and MAX() only deals with known values, it ignores them. 
+	
+	Example: 
+		SELECT MAX(price) FROM products;
+		# returns the highest value in the price column of the products table. 
+	
