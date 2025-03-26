@@ -1,0 +1,28 @@
+# Connecting to the MySQL Server with the mysql Client 
+	> mysql -u root -p 	
+
+
+# To disconnect
+	> QUIT 
+	> \q
+
+# Show Databases
+	> SHOW DATABASES;
+
+# Create Database 
+	> CREATE DATABASE db_name;
+
+# Use Database 
+	> USE db_name; 
+
+# Create Table 
+	> CREATE TABLE table_name;
+
+# Describe Table
+	> DESCRIBE table_name;
+
+# Add records into a table 
+	> INSERT INTO table_name ( col1, col2, col3) VALUES 
+	-> ('c1_v1', 'c2_v1', 'c3_v1'),
+	-> ('c1_v2', 'c2_v2', 'c3_v2');
+
