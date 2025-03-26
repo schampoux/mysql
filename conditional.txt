@@ -1,0 +1,19 @@
+# CASE WHEN 
+
+	- Used for conditional logic wthin queries. 
+	
+	> CASE 
+	-> WHEN condition1 THEN result1
+	-> WHEN condition1 THEN result2
+	-> ...
+	-> ELSE default_result
+	-> END 
+
+	Example: 
+		SELECT
+		(CASE WHEN month = 'Jan' THEN revenue END) AS Jan_Revenue
+		FROM table
+		GROUP BY id;
+
+	- When month = 'Jan', then we select the value of the item in the revenue column. 
+	- This value will be located in its associated id row under Jan_Revenue column. 
