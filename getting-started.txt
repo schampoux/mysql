@@ -16,7 +16,11 @@
 	> USE db_name; 
 
 # Create Table 
-	> CREATE TABLE table_name;
+	> CREATE TABLE table_name (
+	-> col_1 INT PRIMARY KEY, # integer. primary key insures uniqueness
+	-> col_2 VARCHAR (255), # varchar with a maximum length of 255 characters. 
+	-> ... 
+	-> );
 
 # Describe Table
 	> DESCRIBE table_name;
