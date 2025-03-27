@@ -1,0 +1,9 @@
+Start MySQL: 
+	> brew services start mysql
+Stop MySQL 
+	> brew services stop mysql 
+
+
+MySQL is configured to only allow connections form localhost by default. To connect, run: 
+	> mysql -u root 
+
