@@ -3,6 +3,9 @@ Start MySQL:
 Stop MySQL 
 	> brew services stop mysql 
 
+Now that the service has started, run: 
+	> mysql -u root 
+to log in as the root user. 
 
 MySQL is configured to only allow connections form localhost by default. To connect, run: 
 	> mysql -u root 
