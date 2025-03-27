@@ -1,6 +1,8 @@
-# Connecting to the MySQL Server with the mysql Client 
-	> mysql -u root -p 	
+# Connecting to the MySQL Server, using mycli for syntax highlighting and linting. 
+	> mycli -u root -p<password>
 
+# Connecting to the MySQL Server WITHOUT the mysql Client 
+	> mysql -u root -p 	
 
 # To disconnect
 	> QUIT 
