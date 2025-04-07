@@ -1,3 +1,16 @@
+Where can you use aggregation functions? 
+    - 
+
+Where can't you use them? 
+    - In a WHERE clause (that is, before the data is grouped)
+
+Aggregation functions can summarize multiple rows into a single value. 
+    - Hence aggregating them. 
+
+GROUP BY 
+    - tells the database to perform the aggregation for the column specified. 
+
+
 MAX()
 
 	- Find the highest known value in a numeric, date or string column. 
@@ -10,3 +23,5 @@ MAX()
 		SELECT MAX(price) FROM products;
 		# returns the highest value in the price column of the products table. 
 	
+MIN() 
+    - aggregation function. 
