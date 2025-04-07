@@ -21,7 +21,7 @@
 # WHERE 
 	
 	- used to filter rows in a query
-	- specifies the criteris that must be met for a record (or row) to be included in the result set. 
+	- specifies the criteria that must be met for a record (or row) to be included in the result set. 
 	- used to apply a condition or set of conditions on the data that we are retreiving or modifying. 
 	- the WHERE clause can include sny of the following comparison operators. 
 		= (equal to)
