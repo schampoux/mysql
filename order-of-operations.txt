@@ -1,0 +1,20 @@
+Order of Operations for a SELECT query: 
+1. FROM - Table Access 
+2. JOIN - Join Operations 
+3. WHERE - Filtering 
+4. GROUP BY - Aggregate based on the specified columns 
+5. HAVING - Group Filtering
+6. SELECT - Projection. Which columns will be included in the final result
+7. DISTINCT - Removing duplicates
+8. ORDER BY - Sorting the result set according to the specified columns. 
+9. LIMIT/OFFSET - Pagination. LIMIT is used to restrict the number of rows returned, and it may also include an offset 
+
+Example. 
+    > SELECT column1, column2, ...
+    FROM table_name 
+    JOIN another_table ON condition
+    WHERE condition 
+    GROUP BY column 
+    HAVING condition 
+    ORDER BY column 
+    LIMIT offset, count;
