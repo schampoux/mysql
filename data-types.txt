@@ -1,0 +1,26 @@
+CHAR
+	uses a fixed length 
+
+
+VARCHAR(255) 
+	only uses as much space as needed for the actual string.
+	plus one or two extra bytes for storage.
+	You must specify a max length when using varchar
+		This means it can store up to (255) characters. 
+
+
+FOREIGN KEY 
+	column or set of columns in a table that establishes a link to a column in another table 
+	ensures referential integrity 
+		the value in the foreign key column must exist in the referenced table. 
+	prevents invalid data (inserting a key that does not exist.)
+
+	REFERENCES is used when defining a foreign key. It links a column to another tables column. 
+	
+	Ex. 
+	> FOREIGN KEY (column_name) REFERENCES referenced_table(referenced_column)
+	
+
+DATE
+	stores only the date (YYYY-MM-DD) without time. 
+		
