@@ -32,3 +32,6 @@
 	-> ('c1_v1', 'c2_v1', 'c3_v1'),
 	-> ('c1_v2', 'c2_v2', 'c3_v2');
 
+# Display the contents of a table 
+    > SELECT * FROM table_name 
+
