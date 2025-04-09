@@ -1,0 +1,24 @@
+* SQL Set Operations combine the results of multiple query blocks into a single result. 
+
+The SQL standard defines the following three set operations:
+    - UNION: Combine all results from two query blocks into a single result, omitting any duplicates.
+    - INTERSECT: Combine only those rows which the results of two query blocks have in common, omitting any duplicates. 
+    - EXCEPT: For two query blocks, A and B, return all result from A which are not also present in B, omitting any duplicates. 
+
+- Each of these supports the ALL modifier. When the ALL keyword follows a set operator, this causes duplicated to be included inthe result. 
+
+- All three set operators also support a DISTINCT keyword, which suppresses duplicates in the result. 
+    - This is the default behavior, so its not necessary. 
+
+* Syntax: 
+    > query_block [set_operator query_block] [set_operator query_block] ...
+
+  query_block:
+    SELECT | TABLE | VALUES
+
+  set_operator:
+    UNION | INTERSECT | EXCEPT 
+
+
+
+
