@@ -35,3 +35,5 @@
 # Display the contents of a table 
     > SELECT * FROM table_name 
 
+
+A query block, sometimes known also as a simple table, is any sql statement that returns a result set, such as SELECT. 
