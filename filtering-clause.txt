@@ -1,0 +1,9 @@
+HAVING 
+    - filter groups of rows after they have been grouped using GROUP BY 
+    - unlike WHERE which filters rows before grouping. 
+    - HAVING filters aggregated groups. 
+
+WHERE 
+    - row-level filter used in SQL. 
+    - filters individual rows before any grouping or aggregation happens. 
+
