@@ -1,5 +1,10 @@
-Where can you use aggregation functions? 
-    - 
+When using an aggregation function (like in the SELECT statement) such as AVG(column_1) SQL needs to know which set of rows to compute on. 
+    - i.e. it needs to know how to group the data 
+
+
+
+
+
 
 Where can't you use them? 
     - In a WHERE clause (that is, before the data is grouped)
@@ -25,3 +30,7 @@ MAX()
 	
 MIN() 
     - aggregation function. 
+
+COUNT()
+    - count is used in the select statement 
+    - can be used with DISTINCT to get distinct values 
