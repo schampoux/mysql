@@ -1,0 +1,15 @@
+JOIN 
+    - Takes two relations (tables) and combines them into one based on a matching condition. 
+
+INNER JOIN 
+    - Returns rows where there is amatch in both tables 
+
+LEFT JOIN 
+    - Returns all rows from the left table, and matched rows from the right table (null if no match) 
+
+RIGHT JOIN 
+    - Returns all rows from the right table, and matched rows from the left table (null if no match)
+
+FULL OUTER JOIN 
+    - Returns all rows from both tables. Rows without a match will have NULLs for the missing side. 
+
