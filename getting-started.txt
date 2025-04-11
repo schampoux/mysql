@@ -37,3 +37,22 @@
 
 
 A query block, sometimes known also as a simple table, is any sql statement that returns a result set, such as SELECT. 
+
+SQL works like this: 
+    - FROM: choose your table 
+    - WHERE: Filter the rows (optional)
+    - GROUP BY: split the remaining rows into groups 
+        - break all the rows into little buckets where every bucket has the same col1 and col2 values. 
+        - then for each bucket, you get one result row.
+    - AGGREGATE: For each group, compute something like COUNT(), SUM(), etc. 
+    - SELECT: Pick what info to show per group. 
+    - ORDER BY: Sort the results (optional) 
+    
+
+Example: 
+    > SELECT col_1, COUNT(*) FROM TableName;
+
+    What should col_1 show in the result row? 
+        - its safe to assume that there are several different values in col_1
+        - SQL would like to know what values you would like to count from col_1 
+        - 
