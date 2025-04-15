@@ -1,0 +1,36 @@
+LEAD(column1)
+    
+    - give me the column1 value from the next row
+
+OVER(order by ...)
+    
+    - tells mysql how to find the next row. 
+    - Example: 
+            > OVER(ORDER BY temp desc)
+   
+
+
+
+
+
+
+
+
+
+example: 
+
+So we want to make some new columns in the result set. 
+we need: 
+    - tomorrows_temp
+    - todays_temp 
+    - temp_difference 
+    
+How do we get tomorrows temp?
+    > lead(temperature) over (order by recordDate) as tomorrows_temp xc
+
+How do we get todays temp?     
+    we already have it 
+    > temperature as todays temp 
+
+How do we get temp difference? 
+    - lead(temperature) over (order by recordDate) - todays_temp as temp_difference 
