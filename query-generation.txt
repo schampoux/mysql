@@ -32,7 +32,7 @@ This is how queries are executed by the database
             Return only N rows. 
 
 Approaching a query problem: 
-    1. What dolumns do i need to return 
+    1. What columns do i need to return 
     2. What filtering conditions are there (on raw rows vs. on groups)
     3. Are there aggregations? (counts, sums, averages) 
     4. Any groupings? (by customer, by category, by date) 
